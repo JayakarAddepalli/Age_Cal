@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="AgeCalculator.css">
+</head>
+<body class="Overall d-flex flex-row justify-content-center">
+    <div class="card">
+        <div class="d-flex flex-row ">
+            <div class="mr-4">
+                <h5>DAY</h5>
+                <input id="date" type="number" min="1" max="31" class="day" placeholder="DD">
+            </div>
+            
+            <div class="mr-4">
+                <h5>MONTH</h5>
+                <input id="month" type="number" min="1" max="12" class="day" placeholder="MM">
+            </div>
+            
+            <div>
+                <h5>YEAR</h5>
+                <input id="year" type="number" min="1950" max="2023" class="day" placeholder="YYYY">
+            </div>          
+        </div><br>  
+
+        <div class="d-flex flex-row">
+            <hr>
+            <button class="button" onclick="calculate()"><img src="arrow-down.png" alt="arrow-down" class="image"></button>    
+        </div>
+
+        <div class="">
+            <div class="card1 d-flex flex-row justify-content-start">
+                <p id="Years" class="par"><b><i>--</i></b></p>
+                <h1>years</h1>
+            </div>
+            <div class=" card2 d-flex flex-row justify-content-start">
+                <p id="Months" class="par"><b><i>--</i></b></p>
+                <h1>months</h1>
+            </div>
+            <div class="card3 d-flex flex-row justify-content-start">
+                <p id="Days" class="par"><b><i>--</i></b></p>
+                <h1>days</h1>
+            </div>
+        </div>
+
+        <p id="wishes"></p>
+    </div>
+
+<script src="AgeCalculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+.Overall{
+    background-color:rgb(209, 209, 209);
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 600px;
+    border-style: solid light;
+    border-radius: 30px;
+    border-bottom-right-radius: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-top: 50px;
+
+}
+
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+}
+
+hr{
+    width: 500px;
+    margin-left: 0px;
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+}
+
+.button{
+    width:50px;
+    height: 50px;
+    border-radius: 100px;
+    border-style: initial;
+    background-color: rgb(190, 225, 255);
+    margin-left: 0px;
+    margin-right: 110px;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.775);
+    
+}
+
+.day{
+    width:100px;
+    height: 50px;
+    border-style: double;
+    border-radius: 5px;
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.par{
+    font-size: 100px;
+    font-weight: 900;
+    padding-right: 10px;
+    color:rgb(89, 0, 255) ;
+}
+
+.card1{
+    text-align: top;
+    padding-top: 0px;
+    height: 120px;
+    width: 500px;
+}
+
+.card2{
+    text-align: top;
+    padding-top: 0px;
+    height: 120px;
+    width: 500px;    
+}
+
+.card3{
+    text-align: top;
+    padding-top: 0px;
+    height: 120px;
+    width: 500px;
+}
+
+@media only screen and (min-width:425px) and (max-width:760px){
+    
+    .card{
+        background-color: rgb(255, 255, 255);
+        width: 380px;
+        height: 550px;
+        padding-top: 25px;
+        padding-left: 25px;
+        margin-top: 50px;
+        margin-left: 0px;
+    
+    }
+
+    h5{
+        font-size: 10px;
+    }
+    
+    hr{
+        width: 260px;
+        margin-left: 0px;
+    }
+    
+    .image{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .button{
+        width:50px;
+        height: 50px;
+        border-radius: 100px;
+        border-style: initial;
+        background-color: rgb(190, 225, 255);
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+    
+    .button:hover{
+        background-color: rgba(0, 0, 0, 0.775);
+        
+    }
+    
+    .day{
+        width:80px;
+        height: 50px;
+    }
+    
+    h1{
+        font-size: 60px;
+        }
+    
+    .par{
+        font-size: 60px;
+        font-weight: 900;
+        padding-right: 10px;
+    }
+    
+    .card1{
+        text-align: top;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        height: 80px;
+        width: 250px;
+        margin-top: 20px;
+    }
+    
+    .card2{
+        text-align: top;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        height: 80px;
+        width: 290px;   
+        margin-top: 20px; 
+    }
+    
+    .card3{
+        text-align: top;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        height: 80px;
+        width: 250px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:424px){
+    .card{
+        background-color: rgb(255, 255, 255);
+        width: 300px;
+        height: 500px;
+        padding-top: 25px;
+        padding-left: 25px;
+        border-bottom-right-radius: 100px;
+        margin-top: 50px;
+        margin-left: 0px;
+    
+    }
+
+    h5{
+        font-size: 10px;
+    }
+    
+    hr{
+        width: 200px;
+        margin-left: 0px;
+    }
+    
+    .image{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .button{
+        width:40px;
+        height: 40px;
+        margin-right: 30px;
+    }
+    
+    .button:hover{
+        background-color: rgba(0, 0, 0, 0.775);
+        
+    }
+    
+    .day{
+        width:70px;
+        height: 50px;
+    }
+    
+    h1{
+        font-size: 50px;
+        }
+    
+    .par{
+        font-size: 50px;
+    }
+    
+    .card1{
+        text-align: top;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        height: 80px;
+        width: 200px;
+    }
+    
+    .card2{
+        text-align: top;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        height: 80px;
+        width: 250px;   
+    }
+    
+    .card3{
+        text-align: top;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        height: 80px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:374px){
+    .card{
+        width: 300px;
+        height: 450px;
+        border-bottom-right-radius: 100px;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-top: 100px;
+    
+    }
+
+    h5{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    hr{
+        width: 190px;
+        margin-left: 0px;
+    }
+    
+    .image{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .button{
+        width:50px;
+        height: 50px;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+    
+    .button:hover{
+        background-color: rgba(0, 0, 0, 0.775);
+        
+    }
+    
+    .day{
+        width:50px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    .par{
+        font-size: 30px;
+    }
+    
+    .card1{
+        height: 80px;
+        width: 150px;
+    }
+    
+    .card2{
+        height: 80px;
+        width: 150px;    
+    }
+    
+    .card3{
+        height: 80px;
+        width: 150px;
+    }
+
+}
